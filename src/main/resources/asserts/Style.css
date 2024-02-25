@@ -1,0 +1,59 @@
+#lblSongTitle,#lblPlaylist{
+    -fx-font-size: 34px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(from 0% 0% to 100% 100%, #32FAFA, white, #32FAFA);
+    -fx-font-family:"System Bold";
+    -fx-alignment: center;
+
+}
+#btnAddMusic,#btnRemove {
+    -fx-background-color:transparent;
+    -fx-text-fill:#32FAFA;
+    -fx-border-color: #32FAFA;
+    -fx-border-width: 3;
+    -fx-border-radius: 15;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-font-family: "System Bold";
+    -fx-cursor: hand;
+}
+#btnAddMusic:hover,#btnRemove:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+#btnAddMusic:pressed{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+#btnAddToFav{
+    -fx-background-color:transparent;
+    -fx-text-fill: #FFB329;
+    -fx-border-color: #32FAFA;
+    -fx-border-width: 3;
+    -fx-border-radius: 15;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-font-family: "System Bold";
+    -fx-cursor: hand;
+}
+#btnAddToFav:hover{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: #32FAFA;
+}
+#btnAddToFav:pressed{
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+#btnNext,#btnPreviouse,#btnPlay,#btnPlaylist,#btnStop{
+    -fx-background-color:transparent;
+    -fx-text-fill: #32FAFA;
+    -fx-border-color: #FEFFFF;
+    -fx-border-width: 3;
+    -fx-border-radius: 100%;
+   -fx-cursor: hand;
+}
+
